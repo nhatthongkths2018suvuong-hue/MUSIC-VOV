@@ -1,0 +1,13 @@
+# Danh sách kênh VOV - mỗi dòng là một kênh.
+# Định dạng:   Tên kênh|đường link
+# Dòng trống và dòng bắt đầu bằng # sẽ bị bỏ qua.
+# (Có thể chỉ ghi link, app sẽ tự đặt tên "Kênh 1", "Kênh 2"...)
+#
+# File này nằm ở: Android/data/com.example.musicbox.vov/files/vov.txt
+# Sửa xong thì thoát ra vào lại mục "Nghe đài VOV" là có hiệu lực.
+
+VOV2|https://audio-lss.vov.vn/live/vov2.m3u8
+
+# Các kênh khác: bỏ dấu # đầu dòng nếu link chạy được (chưa kiểm chứng, bạn tự thử trên trình duyệt trước)
+# VOV1|https://audio-lss.vov.vn/live/vov1.m3u8
+# VOV3|https://audio-lss.vov.vn/live/vov3.m3u8

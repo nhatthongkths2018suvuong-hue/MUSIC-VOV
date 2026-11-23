@@ -18,5 +18,5 @@ jobs:
       - run: gradle assembleRelease --no-daemon
       - uses: actions/upload-artifact@v4
         with:
-          name: BoxPlayer-apk
+          name: Music-VOV-box-apk
           path: app/build/outputs/apk/release/*.apk
